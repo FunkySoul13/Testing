@@ -1,0 +1,17 @@
+html {
+  color: $dark-grey;
+  background: $white;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $line-height;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}

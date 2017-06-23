@@ -1,0 +1,85 @@
+/*------------------------------------*\
+** HEADINGS
+\*------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: $heading-font-family;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0.625rem;
+  font-weight: $regular;
+}
+
+h1 {
+  @include font-size($h1-sizes);
+}
+
+h2 {
+  @include font-size($h2-sizes);
+}
+
+h3 {
+  @include font-size($h3-sizes);
+}
+
+h4 {
+  @include font-size($h4-sizes);
+}
+
+h5 {
+  @include font-size($h5-sizes);
+}
+
+h6 {
+  @include font-size($h6-sizes);
+}
+
+
+
+/*------------------------------------*\
+** LISTS
+\*------------------------------------*/
+
+ul li {
+  list-style-type: none;
+}
+
+ol li {
+  list-style-type: none;
+}
+
+
+
+/*------------------------------------*\
+** LINKS
+\*------------------------------------*/
+
+a.link {
+  outline-width: 0;
+  text-decoration: none;
+  color: $white;
+  transition: 0.2s;
+
+  &--grey {
+    color: $dark-grey;
+  }
+}
+
+a.link:hover, a.link:focus, a.link:active {
+  border-bottom: 2px dotted $white;
+}
+
+a.link--grey:hover, a.link--grey:focus, a.link--grey:active {
+  border-bottom: 2px dotted $dark-grey;
+}
+
+
+
+/*------------------------------------*\
+** OTHER
+\*------------------------------------*/
+
+p {
+  @include font-size($base-font-size);
+  font-family: $base-font-family;
+  margin-bottom: 1.2rem;
+}

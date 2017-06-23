@@ -1,0 +1,117 @@
+/**************************\
+*       BREAKPOINTS
+\**************************/
+$xsmall: 0;
+$small: 768px;
+$medium: 992px;
+$large: 1200px;
+
+$breakpoints: (
+  xsmall  : $xsmall,
+  small   : $small,
+  medium  : $medium,
+  large   : $large
+);
+
+
+/**************************\
+*       COLORS
+\**************************/
+$white: #fff;
+$light-grey: #6b6b6b;
+$dark-grey: #363636;
+$red: #d81c1b;
+$orange: #d87c1b;
+
+
+/**************************\
+*       FONTS
+\**************************/
+$light: 300;
+$regular: 400;
+$semibold: 600;
+$bold: 700;
+$extrabold: 900;
+
+$base-font-color: $dark-grey;
+$base-font-family: 'Lora', serif;
+$base-font-size: 20px;
+$base-font-weight: $regular;
+$line-height: 1.2;
+$heading-font-family: 'Nunito', sans-serif;
+
+
+/**************************\
+*       HEADINGS
+\**************************/
+$h1-sizes: (
+  xsmall : (1.778rem, 1.2),
+  small  : (1.778rem, 1.2),
+  medium : (2.111rem, 1.2),
+  large  : (2.333rem, 1.2)
+);
+
+$h2-sizes: (
+  xsmall : (1.556rem, 1.2),
+  small  : (1.556rem, 1.2),
+  medium : (1.778rem, 1.2),
+  large  : (2rem, 1.2)
+);
+
+$h3-sizes: (
+  xsmall : (1.222rem, 1.2),
+  small  : (1.222rem, 1.2),
+  medium : (1.333rem, 1.2),
+  large  : (1.556rem, 1.2)
+);
+
+$h4-sizes: (
+  xsmall : (1rem, 1.2),
+  small  : (1rem, 1.2),
+  medium : (1.111rem, 1.2),
+  large  : (1.222rem, 1.2)
+);
+
+$h5-sizes: (
+  xsmall : (0.7778rem, 1.2),
+  small  : (0.7778rem, 1.2),
+  medium : (0.8889rem, 1.2),
+  large  : (0.8889rem, 1.2)
+);
+
+$h6-sizes: (
+  xsmall : (0.6667rem, 1.2),
+  small  : (0.6667rem, 1.2),
+  medium : (0.7778rem, 1.2),
+  large  : (0.7778rem, 1.2)
+);
+
+
+/**************************\
+*       SHADOWS
+\**************************/
+
+
+
+
+
+
+
+/*------------------------------------*\
+# GRID
+\*------------------------------------*/
+
+$gutter: 2rem;
+$width: 80rem;
+$text-width: 40rem;
+
+
+
+/*------------------------------------*\
+** BUTTONS
+\*------------------------------------*/
+
+$button-radius: 0.5rem;
+$button-padding--lr: 1.25rem;
+$button-padding--tb: 0.9375rem;
+$button-icon--size: 1.5rem;

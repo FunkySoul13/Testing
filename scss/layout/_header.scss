@@ -1,0 +1,57 @@
+.header {
+	height: 250px;
+
+	color: #fff;
+	background: #1d1c23 url("../img/fire-3.png") no-repeat bottom center;
+	background-size: cover;
+
+	&__logo {
+
+
+		img {
+			width: 150px;
+		}
+	}
+
+
+	&--home {
+
+		height: 500px;
+		color: #fff;
+		background: #1d1c23 url("../img/header_2.png") no-repeat center;
+		background-size: cover;
+
+		.header__info {
+			display: flex;
+			align-items: center;
+			height: 500px;
+		}
+
+		.header__logo {
+			
+
+			img {
+				width: 130px;
+				-webkit-filter: drop-shadow(0px 0px 5px $dark-grey);
+				filter: drop-shadow(0px 0px 5px $dark-grey);
+			}
+		}
+
+		.header__cta {
+						margin-left: 30px;
+						font-size: 1rem;
+		}
+
+		.header__title {
+
+			h1 {
+				font-size: 2.667rem;
+				font-family: 'Open Sans', sans-serif;
+				font-weight: $bold;
+				text-shadow: 2px 1px 2px $dark-grey;
+				margin-left: 30px;
+				margin-bottom: 30px;
+			}
+		}
+	}
+}
