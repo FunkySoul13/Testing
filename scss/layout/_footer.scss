@@ -1,0 +1,63 @@
+.footer {
+	color: $white;
+	background-color: $grey;
+	padding-top: 35px;
+
+	.logo {
+		width: 120px;
+		margin: 0 auto;
+		padding-bottom: 15px;
+
+		img {
+			width: 120px;
+		}
+	}
+
+	&__info {
+		margin-top: 20px;
+
+		p:first-child {
+			font-size: 1rem;
+		}
+
+		p {
+			font-size: 0.8889rem;
+			margin-top: 0;
+			margin-bottom: 10px;
+		}
+	}
+
+	&__sm {
+		text-align: center;
+
+		.sm-icon {
+			display: inline-block;
+			width: 32px;
+			height: 32px;
+			margin: 0 10px;
+			transition: 0.5s;
+
+			&--facebook {
+				background: url("../img/icon_facebook.png") no-repeat center;
+			}
+
+			&--instagram {
+				background: url("../img/icon_instagram.png") no-repeat center;
+			}
+		}
+
+		.sm-icon:hover {
+  		transform: rotate(360deg);
+  		transition: 0.5s;
+		}
+	}
+
+	.copy {
+		color: $text-light;
+		text-align: center;
+
+		h6 {
+			font-size: 0.6667rem;
+		}
+	}
+}

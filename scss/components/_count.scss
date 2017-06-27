@@ -1,0 +1,27 @@
+.count {
+	text-align: center;
+	margin-bottom: 20px;
+
+	h4 {
+		margin-top: 50px;
+		margin-bottom: 35px;
+	}
+
+	img {
+		width: 100px;
+		float: right;
+	}
+
+	p {
+		margin: 0;
+	}
+
+	&__info {
+		margin-top: 0;
+
+		&--margin {
+			margin-left: -20px;
+			margin-top: 10px;
+		}
+	}
+}

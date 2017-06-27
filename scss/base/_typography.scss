@@ -60,7 +60,7 @@ a.link {
   transition: 0.2s;
 
   &--grey {
-    color: $dark-grey;
+    color: $text-dark;
   }
 }
 
@@ -69,7 +69,7 @@ a.link:hover, a.link:focus, a.link:active {
 }
 
 a.link--grey:hover, a.link--grey:focus, a.link--grey:active {
-  border-bottom: 2px dotted $dark-grey;
+  border-bottom: 2px dotted $text-dark;
 }
 
 
@@ -81,5 +81,6 @@ a.link--grey:hover, a.link--grey:focus, a.link--grey:active {
 p {
   @include font-size($base-font-size);
   font-family: $base-font-family;
-  margin-bottom: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
