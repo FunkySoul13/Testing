@@ -7,12 +7,17 @@
 @import 'base/global';
 @import 'base/typography';
 
+@import 'components/accordion';
 @import 'components/count';
+@import 'components/events';
+@import 'components/member';
+@import 'components/news';
+@import 'components/profile';
+@import 'components/service';
 
 @import 'layout/footer';
 @import 'layout/header';
 @import 'layout/nav';
 @import 'layout/section';
-// @import 'layout/footer';
 
 @import 'vendors/just-grid-it-all';

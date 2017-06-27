@@ -1,0 +1,16 @@
+.events {
+	height: 40vh;
+	color: $white;
+	background: #1d1c23 url("../img/events.png") no-repeat center;
+	background-size: cover;
+
+	h2 {	
+		margin-top: 50px;
+		margin-bottom: 30px;
+	}
+
+	p {
+		margin-top: 0;
+		margin-bottom: 10px;
+	}
+}

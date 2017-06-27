@@ -1,0 +1,15 @@
+.service {
+	height: 50vh;
+	color: $white;
+	background: #1d1c23 url("../img/service.png") no-repeat top center;
+	background-size: cover;
+
+	h2, h4 {	
+		margin-top: 50px;
+		margin-bottom: 30px;
+	}
+
+	h4 {
+		text-align: center;
+	}
+}

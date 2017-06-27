@@ -52,24 +52,15 @@ ol li {
 /*------------------------------------*\
 ** LINKS
 \*------------------------------------*/
-
-a.link {
-  outline-width: 0;
+a {
+  color: $blue;
+  font-family: $heading-font-family;
   text-decoration: none;
-  color: $white;
   transition: 0.2s;
-
-  &--grey {
-    color: $text-dark;
-  }
 }
 
-a.link:hover, a.link:focus, a.link:active {
-  border-bottom: 2px dotted $white;
-}
-
-a.link--grey:hover, a.link--grey:focus, a.link--grey:active {
-  border-bottom: 2px dotted $text-dark;
+a:hover {
+  color: $text-light;
 }
 
 
