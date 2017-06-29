@@ -1,7 +1,7 @@
 .header {
 	height: 400px;
 	color: #fff;
-	background: #1d1c23 url("../img/header_2.png") no-repeat center;
+	background: $grey url("../img/header_2.png") no-repeat center;
 	background-size: cover;
 
 	&__info {
@@ -42,5 +42,9 @@
 		.header__info {
 			height: 500px;
 		}
+	}
+
+	&--dvd {
+		background: $red url("../img/header_1.png") no-repeat center;
 	}
 }

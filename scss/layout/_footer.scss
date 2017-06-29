@@ -44,6 +44,14 @@
 			&--instagram {
 				background: url("../img/icon_instagram.png") no-repeat center;
 			}
+
+			&--fb {
+				background: url("../img/icon_fb.png") no-repeat center;
+			}
+
+			&--insta {
+				background: url("../img/icon_insta.png") no-repeat center;
+			}
 		}
 
 		.sm-icon:hover {
@@ -59,5 +67,9 @@
 		h6 {
 			font-size: 0.6667rem;
 		}
+	}
+
+	&--dvd {
+		background-color: $red;
 	}
 }
